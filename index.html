@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+     <link rel="stylesheet" href="styles.css" />
+
+     <title>Astrology and Vaastu consultant</title>
+    
+</head>
+
+<body>
+
+    <header class="jumbotron jumbotron-fluid" > 
+
+        <div id="scheduleModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-success text-white">
+                        <h4 class="modal-title ">Schedule an Appointment </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form id="scheduleForm">
+                                <div class="form-group row">
+                                    <label class="col-12 col-sm-6  col-form-label" for="customer"> Name</label>
+                                    <div class="col-12 col-sm-6 ">
+                                        <input type="Text" name="Name of person" id="customer" placeholder="Name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group row ">
+                                    <label class="col-12 col-sm-6  col-form-label" for="Date">Date</label>
+                                    <div class="col-12 col-sm-6 ">
+                                        <input type="Date" name="Date" id="Date" placeholder="mm/dd/yyyy" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group row ">
+                                    <label class="col-12 col-sm-6  col-form-label" for="Appt">Time</label>
+                                    <div class="col-12 col-sm-6 ">
+                                        <input type="Time" name="appt" id="Appt" placeholder="mm/dd/yyyy" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group row ">
+                                    <div class="col">
+                                        <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                        <button type="submit" class="btn btn-primary btn-sm ml-1">Send</button>
+                                    </div>
+                                </div>  
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                       
+        <nav class="navbar navbar-expand-sm  navbar-dark fixed-top ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="images/planets.jpg" height="40" width="40" /></a>  
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#astroVaastu">
+                    <span class="navbar-toggler-icon bg-primary"></span>
+                </button>
+                <div class=" collapse navbar-collapse" id="astroVaastu">
+                    <ul class="nav nav-tabs">
+                         <li class="nav-item"> <a class="btn btn-primary" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                                        <!-- <li class="nav-item dropdown">
+                                            <a class="nav-link btn btn-primary  dropdown-toggle" data-toggle="dropdown" href="services.html" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                                            <div class="dropdown-menu">
+                                                 <a class="dropdown-item" href="services.html">Astrology</a>
+                                                 <a class="dropdown-item" href="services.html">Vaastu</a>   
+                                             </div>
+                                        </li>  -->
+                         <li class="nav-item"> <a class=" btn " href="services.html"><i class="fa fa-handshake-o fa-lg"></i> Services</a></li>
+                         <li class="nav-item"> <a class=" btn " href="testimonial.html"><i class="fa fa-list fa-lg"></i>  Testimonial</a></li>
+                         <li class="nav-item"> <a class=" btn " href="contact.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                         <li class="nav-item"> <a class=" btn " href="blog.html"><i class="fa fa-list fa-lg"></i> Blog</a></li>
+                            
+                    </ul>
+                        
+                </div>
+                <div class="col col-sm-1  col-md-1 col-xl-2">
+                    <div data-target=#scheduleModal data-toggle="modal" role="button" class="btn  btn-success">Schedule</a></div>
+                </div>
+        </nav>                   
+                   
+                           
+        <div class="row ">
+            <div class="col">
+                <img class="arrange" src="images/astrology_vaastu.jpg" alt="Astrology and Vaastu"/>
+                <h1 class="top-center justify-content-center">ASTROLOGY & VAASTU CONSULTANT</h1>
+            </div>
+        </div>   
+     
+    </header>
+
+    <div class="container">
+        <div class="row  row-content align-items-center">
+            <div class="col-sm-12 col-md-3 col-xs-12 ">
+                <h2 class="text-md-left text-xs-center">About me</h2>
+            </div>
+            <div class="col col-xs-12"> 
+                <div class="media">
+                    <div class="media-body align-self-center">  
+                        <p>-Over 45 years of experience in the field of Astrology and Vaastu, he uses Astrology to help his clients make “real world” decisions.</p>
+                        <p>  -His unique blend of business, professional and counseling experience to really know what he’s talking about, when he advises you.</p>
+                        <p> -He knows how to motivate you to make the “right choice” as your Life Coach!</p>       
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail" src="images/person1.jpg" alt="astrologer" />
+                </div>
+            </div> 
+        </div>  
+         
+        <div class="row  row-content align-items-center">
+            <div class="col-sm-12 order-md-last col-md-3 col-xs-12">
+                <h2 class="text-xs-center">Astrology</h2>
+             </div>
+            <div class="col col-xs-12"> 
+                <div class="media">
+                    <img class="d-flex mr-3 align-item-center img-thumbnail " src="images/astro.jpg" alt="astrology" />
+                    <div class="media-body align-self-center">  
+                        <p >Astrology is an ancient art that extends WAY beyond your personal horoscopes. 
+                            The movement and positions of celestial bodies can have a profound impact on your life.</p>
+                        <p> A major part of Astrology is using the movements (transits) and relationships (aspects) of the planets to forecast what will be happening in our lives. </p>
+                        <p>Together with your Astrology birth chart, these astrological events can help us better understand current universal opportunities.</p> 
+                    </div>
+                </div>
+            </div> 
+        </div> 
+         
+        <div class="row  row-content align-items-center">
+            <div class="col-sm-12  col-xs-12 col-md-3">
+                <h2 class="text-md-left text-xs-center">Vaastu</h2>
+            </div>
+            <div class="col col-xs-12"> 
+                <div class="media">
+                    <div class="media-body align-self-center">  
+                        <p>Vastu Shastra is an ancient Indian science of harmony and prosperous living by eliminating negative and enhancing positive energies around us.</p>
+                           <p class="d-none d-sm-block"> It’s  a fact that all things in the universe have a level of energy associated with them.<br/>
+                                            Hence it’s apt to say that all buildings and even the land on which a building is erected has vibrations of energy associated with it.
+                                            Some energies are positive (with pleasing effects) while others are negative (having terrible effects) on us.</p>
+                           <p> Vastu aims to eliminate negative and enhance positive energy present at a place or location so that a person, family or even business inhabiting a building become prosperous and progressive.</p>
+                       
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail" src="images/vaastu.jpg" alt="Vaastushastra" />
+                </div>
+            </div> 
+        </div>        
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="testimonial.html">Testimonial</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram " href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter " href="http://twitter.com/"><i class="fa fa-twitter"></i></a>  
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+918907608564"><i class="fa fa-phone"></i>+918907608564 </a><br>
+            	    <a role="button" class="btn btn-link" href="madhupottekad@gmail.com"><i class="fa fa-envelope-o"></i> madhupottekad@gmail.com</a>
+                </div>
+           </div>
+        </div>
+    </footer>
+
+   
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>

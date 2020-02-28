@@ -1,0 +1,121 @@
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3,h4,h5 {
+    font-family: "elephant", cursive;
+    
+}
+h1{
+    font-weight: bold;
+    font-size:30px;
+}
+ @media screen and (max-width: 576px) {
+        h1 {
+          font-size:20px;
+            }
+    
+
+h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+h5{
+    font-weight:800;
+    font-size: 20px;
+}
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight:500;
+}
+
+p1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight:500;
+}
+ .arrange{
+    position: relative;
+    top:20;
+  
+    height:70vh;
+    
+    width:100%;
+    height:auto;
+    max-height:100%; 
+    
+     } 
+  .top-center {
+    position: absolute;
+    top:80%;
+    left:40%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    color:rgb(240, 94, 10);
+  }
+  .navbar{
+      background-color: rgb(183, 231, 250);
+  }
+  
+  
+  .row-content{
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+  }
+  .jumbotron{
+      margin:0;
+      padding:0;
+      color:rgb(126, 151, 14);
+  }
+  .site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+    margin-top: 20px ;
+ }
+
+     @media screen and (max-width: 768px) {
+        .resize {
+          font-size:small;
+            }
+    } 
+    @media screen and (min-width: 576px) {
+        .resize {
+          font-size:small;
+            }
+    } 
+    #astro, #vaastu{
+        text-align: center;
+        color:rgb(20, 20, 139);
+        font-size: 35px;
+    }
+
+    /* .carousel-caption {
+        background-color: rgb(224, 184, 184, 0.75); } */
+      
+      .carousel {
+        border: solid rgb(184, 181, 194); }
+      
+      #carouselButton {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+       }
+
+      .modal-title{
+            font-weight:500;
+        }
+      .client{
+        font-style: italic;
+        font-weight: 100;
+        color: rgb(133, 184, 133);
+      }
+
+      h3{
+        font-size: medium;
+      }
+
+      
