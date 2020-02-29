@@ -118,4 +118,8 @@ p1{
         font-size: medium;
       }
 
+      .breadcrumb{
+        z-index:99;
+      }
+
       
